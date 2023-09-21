@@ -1,0 +1,134 @@
+/*
+Name : Md. Sazith Shyonton
+Jr. Software Developer
+Simec System Limited
+Email : sazith.simecsoftdev@gmail.com
+*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+/*Product Headline Section Start*/
+.cart_headline {
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfd8d8;
+    letter-spacing: 1px;
+    color: #0d506b;
+}
+
+/*Product Headline Section End*/
+/*Product List  Section Start*/
+.product_item ul {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.product_item ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.product {
+    background-color: #000000a3;
+    text-align: center;
+    padding: 20px;
+    /* width: 250px; */
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.product h2 {
+    font-size: 18px;
+    font-size: 18px;
+    color: #edff00;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.product p {
+    font-size: 13px;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.add_to_product_btn {
+    font-size: 12px;
+    background: #000763;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 13px;
+    color: #ffca00;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.add_to_product_btn:hover {
+    background: antiquewhite;
+}
+
+/*Product List  Section End*/
+
+/*Shopping Cart Section Start*/
+.cart h2 {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #0d7916;
+    border-bottom: 1px solid #e7e0e0;
+    padding-bottom: 11px;
+}
+
+#noProductMessage {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #ff0000e3;
+    background: #edff00;
+    margin-top: 10px;
+}
+
+#totalProductMessage {
+    font-size: 14px;
+    text-align: center;
+    color: cornflowerblue;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #869ed380;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.remove-button {
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 16px;
+    color: #d81212;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+#cart-items li {
+    font-size: 12px;
+    list-style: decimal-leading-zero;
+    padding: 1px;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+}
+
+/*Shopping Cart Section End*/
